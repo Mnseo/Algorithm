@@ -21,8 +21,7 @@ int main() {
     do {
         int sum = 0;
         for(int i = 0; i <7; i++) sum += a[i];
-
-        if(sum == 100) break;
+        if(sum == 100) break; //정지 조건 까먹지 말기
     }while(next_permutation(a,a+9));
 
     for(int i = 0; i < 7; i++) {
