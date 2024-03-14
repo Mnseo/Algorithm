@@ -27,6 +27,7 @@ int main() {
     }
     solve();
     for (int i = 0; i < 9; i++) {
+        //이상한 사람 2명 뽑기 
         if(ret.first == i || ret.second == i) continue;
         v.push_back(a[i]);
     }
