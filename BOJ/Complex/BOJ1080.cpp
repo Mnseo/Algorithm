@@ -6,7 +6,7 @@ std::vector<std::pair<string,int>> ret;
 
 void inputAlphaBet() {
     for(char ch='a'; ch<= 'z'; ++ch) {
-        ret.push_back(make_pair(string(1,ch), 0));
+        ret.push_back(make_pair(string(1,ch),0));
     }
 }
 
