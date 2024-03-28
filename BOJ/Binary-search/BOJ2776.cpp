@@ -15,7 +15,6 @@ int check(int temp, vector<int> &v){
 	return 0; 
 }
 
-
 int main() {
     int t; 
     scanf("%d", &t);
@@ -27,7 +26,6 @@ int main() {
             scanf("%d", &temp);
             v.push_back(temp);
         }
-
         sort(v.begin(), v.end());
 
         scanf("%d" ,&m);
@@ -35,7 +33,6 @@ int main() {
             scanf("%d", &temp);
             cout << check(temp, v) << '\n';
         }
-
     
     }
 
