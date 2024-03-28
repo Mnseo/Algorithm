@@ -26,7 +26,21 @@ int main() {
 
 int main() {
     cin >> n;
+    //for 문 
     for(int i = 2400; i < INF; i++) {
+        string a = to_string(i);
+        if(a.find("2400") != string::npos) {
+            cnt++;
+            if(n == cnt) {
+                cout << a << '\n';
+                break;
+            }
+            cout << cnt << " : " << a << '\n';
+        }
+    }
+    //while 문
+    int i = 2400;
+    while(true) {
         string a = to_string(i);
         if(a.find("2400") != string::npos) {
             cnt++;
