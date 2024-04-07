@@ -2,6 +2,7 @@
 #include<algorithm>
 #include<vector>
 // 백준 1920 수 찾기
+// 메모리 2404KB 시간 72ms
 using namespace std;
 
 int n, m, temp, r, l;
