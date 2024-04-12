@@ -19,7 +19,7 @@ int main() {
     vector<string> result;
     string name;
 
-    for(int i = 0; i <a; i++) {
+    for(int i = 1; i <= a; i++) {
         cin >> name;
         v.push_back(name);
         pokemon.insert(make_pair(name,i));
@@ -29,12 +29,12 @@ int main() {
         if(name[0] >= 65 && name[0] <= 90) { 
             result.push_back(to_string(pokemon[name]));
         } else {
-            result.push_back(v[stoi(name)]);
+            result.push_back(v[stoi(name)-1]);
         }
     }
 
     for(int i = 0; i < result.size(); i++) {
-        cout<<result[i] <<'\n';
+        cout<< result[i] <<'\n';
     }
 
     return 0;
