@@ -11,9 +11,6 @@ int main() {
     cin.tie(0);
     cout.tie(0);
 
-    int n,k;
-    vector<int> v(n,0);
-    vector<bool> b(n,false);
     cin >> N >> K;
 
     // 1 ~ N의 숫자 큐에 넣기 
